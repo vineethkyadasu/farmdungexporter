@@ -3,7 +3,7 @@ import React, { useState } from "react";
 
 import Image from "next/image";
 import Header from './components/Header';
-import Products from "@/components/Products";
+import Products from "../components/Products";
 
 export default function Home() {
   const [sending, setSending] = useState(false);
