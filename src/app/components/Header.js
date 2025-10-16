@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
+import Image from 'next/image';
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -10,27 +11,26 @@ export default function Header() {
     <header className="fixed top-0 left-0 w-full z-50 bg-white border-b shadow-sm">
       <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
-        <a href="#hero" className="text-2xl font-bold text-[#2c4a0f]">
-          Farm Dung Exporter
+        <a href="#hero" className="flex items-center space-x-2">
+          <Image
+            src="/logo.png"
+            alt="Farm Dung Exporter Logo"
+            width={40}
+            height={40}
+            className="object-contain"
+          />
+          <span className="text-2xl font-bold text-[#2c4a0f]">
+            Farm Dung Exporter
+          </span>
         </a>
 
         {/* Desktop Menu */}
         <nav className="hidden md:flex space-x-8 text-sm font-medium text-gray-700">
-          <a href="#hero" className="hover:text-[#78350f]">
-            Home
-          </a>
-          <a href="#products" className="hover:text-[#78350f]">
-            Products
-          </a>
-          <a href="#about" className="hover:text-[#78350f]">
-            About Us
-          </a>
-          <a href="#benefits" className="hover:text-[#78350f]">
-            Benefits
-          </a>
-          <a href="#contact" className="hover:text-[#78350f]">
-            Contact
-          </a>
+          <a href="#hero" className="hover:text-[#78350f]">Home</a>
+          <a href="#products" className="hover:text-[#78350f]">Products</a>
+          <a href="#about" className="hover:text-[#78350f]">About Us</a>
+          <a href="#benefits" className="hover:text-[#78350f]">Benefits</a>
+          <a href="#contact" className="hover:text-[#78350f]">Contact</a>
         </nav>
 
         {/* Desktop Button */}
@@ -54,21 +54,11 @@ export default function Header() {
       {/* Mobile menu */}
       {open && (
         <div className="md:hidden bg-white px-6 pb-4 space-y-2 shadow-sm">
-          <a href="#hero" className="block py-2 text-gray-700 hover:text-[#78350f]">
-            Home
-          </a>
-          <a href="#products" className="block py-2 text-gray-700 hover:text-[#78350f]">
-            Products
-          </a>
-          <a href="#about" className="block py-2 text-gray-700 hover:text-[#78350f]">
-            About Us
-          </a>
-          <a href="#benefits" className="block py-2 text-gray-700 hover:text-[#78350f]">
-            Benefits
-          </a>
-          <a href="#contact" className="block py-2 text-gray-700 hover:text-[#78350f]">
-            Contact
-          </a>
+          <a href="#hero" className="block py-2 text-gray-700 hover:text-[#78350f]">Home</a>
+          <a href="#products" className="block py-2 text-gray-700 hover:text-[#78350f]">Products</a>
+          <a href="#about" className="block py-2 text-gray-700 hover:text-[#78350f]">About Us</a>
+          <a href="#benefits" className="block py-2 text-gray-700 hover:text-[#78350f]">Benefits</a>
+          <a href="#contact" className="block py-2 text-gray-700 hover:text-[#78350f]">Contact</a>
           <a
             href="#contact"
             className="mt-3 inline-block bg-[#78350f] text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-[#92400e] transition"
