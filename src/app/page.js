@@ -631,10 +631,21 @@ async function handleSubmit(e) {
   </div>
 
   {/* Bottom Bar */}
-  <div className="border-t border-green-700 mt-12 py-6 text-center text-gray-300 text-sm flex flex-col md:flex-row items-center justify-center gap-4">
-    <p>© {new Date().getFullYear()} Pure Farm Dung. All rights reserved.</p>
-    
-  </div>
+<div className="border-t border-green-700 mt-12 py-6 text-center text-gray-300 text-sm flex flex-col md:flex-row items-center justify-center gap-4">
+  <p>© {new Date().getFullYear()} Pure Farm Dung. All rights reserved.</p>
+  <span className="hidden md:inline">|</span>
+  <p>
+    Designed & Developed by{" "}
+    <a
+      href="https://www.vikrin.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-green-400 font-medium hover:text-white transition"
+    >
+      Vikrin
+    </a>
+  </p>
+</div>
 </footer>
       </div>
     </main>
