@@ -536,7 +536,7 @@ async function handleSubmit(e) {
   <ul className="space-y-6">
     <li>
       <strong>Address:</strong><br />
-      32-1-67/1, Pavelipula, Hanamkonda,<br />
+      Hanamkonda,<br />
       Warangal, Telangana, India 506015
     </li>
     <li>
@@ -547,8 +547,8 @@ async function handleSubmit(e) {
     </li>
     <li>
       <strong>Email:</strong><br />
-      <a href="mailto:farmdungexpoter@gmail.com" className="text-[#2c4a0f] hover:underline">
-        farmdungexpoter@gmail.com
+      <a href="mailto:info@farmdungexporter.com" className="text-[#2c4a0f] hover:underline">
+        info@farmdungexporter.com
       </a>
     </li>
   </ul>
@@ -615,7 +615,7 @@ async function handleSubmit(e) {
       <ul className="space-y-3 text-gray-300">
         <li>
           <strong>Address:</strong><br />
-          32-1-67/1, Pavelipula, Hanamkonda,<br />
+          Hanamkonda,<br />
           Warangal, Telangana, India 506015
         </li>
         <li>
@@ -624,7 +624,7 @@ async function handleSubmit(e) {
         </li>
         <li>
           <strong>Email:</strong><br />
-          <a href="mailto:farmdungexpoter@gmail.com" className="hover:text-green-400 transition">farmdungexpoter@gmail.com</a>
+          <a href="mailto:info@farmdungexporter.com" className="hover:text-green-400 transition">info@farmdungexporter.com</a>
         </li>
       </ul>
     </div>
