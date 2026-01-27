@@ -347,11 +347,7 @@ async function handleSubmit(e) {
   {/* Intro */}
   <div className="bg-green-50 rounded-lg shadow-lg p-8 text-gray-700 leading-relaxed mb-12">
     <p className="mb-6">
-      I&apos;m <strong>Avinash Nalubola</strong>, Founder of <strong>Farm Dung Exporter</strong>, 
-      a division of <strong>Abhi Groups Pvt. Ltd.</strong>, co-founded with <strong>Prem Kumar Reddy Sandi</strong>. 
-      After completing my MSc in Management in the UK, I returned to India with a clear mission: 
-      to bring global recognition to one of our most traditional yet undervalued natural resources — 
-      organic cow and buffalo dung.
+      Farmdung Exporter, a unit of Abhielite Group Pvt. Ltd., is an international trading company specializing in the export and import of premium organic and agricultural products. We deliver fresh farm produce and sustainable cow dung–based products, ensuring quality, purity, and eco-friendly solutions for global markets.
     </p>
     <p className="mb-6">
       Headquartered in Warangal, Telangana (India) and operating internationally from London, United Kingdom (E16 1FH), 
